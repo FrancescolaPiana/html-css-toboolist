@@ -1,5 +1,94 @@
+
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+img{
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+}
+
+.all{
+    vertical-align: middle;
+}
+
+.sfondo{
+    background-color: #F6F8F9;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.riquadro{
+    background-color: #f34f4f;
+    border-radius: 3px;
+}
+
+.pad{
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+#mid{
+    vertical-align: middle;
+}
+
+.he{
+    tex
+}
+
+.square{
+    display: inline-block;
+    background-color: #46ADF1;
+    width: 50px;
+    height: 15px;
+    border-radius: 3px;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.square2{
+    border: px solid lightgray;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 65px;
+    height: 15px;
+    border-radius: 3px;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#hr{
+    background-color: #F6F8F9;
+        border: none;
+        height: 2px;
 }
