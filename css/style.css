@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -31,7 +32,7 @@ img{
 }
 
 .riquadro{
-    background-color: #f34f4f;
+    background-color: #ffffff;
     border-radius: 3px;
 }
 
@@ -46,8 +47,8 @@ img{
     vertical-align: middle;
 }
 
-.he{
-    tex
+.grassetto{
+    font-weight: 700;
 }
 
 .square{
@@ -63,6 +64,27 @@ img{
     color: white;
     padding-top: 3px;
     font-weight: 500;
+}
+
+#txt{
+    color: #222222;
+}
+
+.paddingl{
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+
+
+.green{
+    color: #64C0A9;
+    font-size: 10px;
+}
+
+.red{
+    color: #ee0e0e;
+    font-size: 10px;
 }
 
 .square2{
@@ -91,4 +113,42 @@ img{
     background-color: #F6F8F9;
         border: none;
         height: 2px;
+}
+
+.rouderb{
+    display: inline-block;
+    background-color: #46ADF1;
+    width: 50px;
+    height: 15px;
+    border-radius: 6px;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+
+/* colors */
+
+.prp{
+    background-color: #9C72E4;
+}
+
+.grn{
+    background-color: #64C0A9;
+}
+
+.org{
+    background-color: #F29E33;
+}
+
+.mgn{
+    background-color: #D763A1;
+}
+
+.lme{
+    background-color: #B0C925;
 }
