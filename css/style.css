@@ -64,6 +64,7 @@ img{
     color: white;
     padding-top: 3px;
     font-weight: 500;
+    line-height: 9px;
 }
 
 #txt{
@@ -79,16 +80,16 @@ img{
 
 .green{
     color: #64C0A9;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .red{
     color: #ee0e0e;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .square2{
-    border: px solid lightgray;
+    border: 1px solid gray;
     display: inline-block;
     background-color: #ffffff;
     width: 65px;
@@ -98,9 +99,10 @@ img{
     text-align: center;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
-    color: lightgray;
+    color: gray;
     padding-top: 3px;
     font-weight: 500;
+    line-height: 8px;
 }
 
 #title{
@@ -128,6 +130,18 @@ img{
     color: white;
     padding-top: 3px;
     font-weight: 500;
+}
+
+/* ho aggiunto questo circle simone */
+
+.circle{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
 }
 
 
